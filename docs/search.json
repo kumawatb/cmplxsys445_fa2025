@@ -1,0 +1,156 @@
+[
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Add to my calendar"
+  },
+  {
+    "objectID": "lectures.html",
+    "href": "lectures.html",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\n\n1. Introduction & Motivation\n\n\n\n\n\n\nSlides\nOptional readings\n\n\n\n\n\n\n\n\n\n\n2. Probability Theory I\n\n\n\n\n\n\nNotes\nTextbook chapters\nOptional readings\n\n\n\n\n\n\n\n\n\n\n2. Probability Theory II\n\n\n\n\n\n\nNotes\nTextbook chapters\nOptional readings\n\n\n\n\n\n\n\n\n\n\n3. Entropy\n\n\n\n\n\n\nNotes\nTextbook chapters\nOptional readings\n\n\n\n\n\n\n\n\n\n\n4. Relative Entropy\n\n\n\n\n\n\nNotes\nTextbook chapters\nOptional readings\n\n\n\n\n\n\n\n\n\n\n3. Mutual Information\n\n\n\n\n\n\nNotes\nTextbook chapters\nOptional readings"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Course number: CMPLXSYS 445\nCourse Title: Entropy and Information: Concepts and Applications\nClass Time & Location: Mondays & Wednesdays, 10:00-11:30AM; Weiser Hall, room 747\nInstructor: Bhaskar Kumawat (kumawatb@umich.edu)\nOffice hours location: 4052 Biological Sciences Building\nIn-person office hours: Tuesdays 10:00 AM - 11:00 AM\nZoom office hours: Thursdays 1:30 PM - 2:30 PM\n\n\nInformation theory was initially proposed by Claude Shannon as a tool to measure the theoretical limits of communication. Since then, the ideas from information theory have found applications beyond engineering, especially in the natural sciences where we wish to measure the performance limits of complex natural (or built) systems. This course introduces the fundamental ideas in Information Theory—Entropy, Relative Entropy, and Information—and is aimed towards students that wish to apply these principals to systems across the natural sciences. While the question of “What is Information?” is of fundamental importance, we will not be addressing it here. We will instead focus on the types of questions that information theory can (and cannot) answer and see how it can be applied to logical problem solving. We will discuss a few of these applications in detail—in evolution, physics, computation, and finance—and conclude with student led presentations on topics that can utilize information-theoretic reasoning. The course is primarily lecture and assignment based, but will have oppurtunities for active learning through interactive simulations and the final presentation.\n\n\n\nA first course in undergraduate probability theory is strongly recommended (eg. MATH 425). While we will go over the required probability concepts in the first few weeks, previous exposure to the concepts will be provide a smoother transition to the idea of information. Familiarity with any one scientific computing package is also recommended for the computational problems in the assignments (eg. python, julia, MATLAB, mathematica, R).\n\n\n\nAt the end of this course, students will be able to:\n\nCalculate the information content of various random variables and probability distributions.\nConstruct and analyze efficient codes for sending data reliably on noisy communication channels.\nUnderstand key theorems and inequalities that impose limitations on compression, communication, and inference.\nTransfer the concepts of entropy and information to solve problems in different fields of the natural sciences.\nIndependently read and critique an application of information theory and present it to their peers.\n\n\nDrop an assignment\nDesign policies with clear pathways is student needs to be absent, turn in work late, leave class early\nExplain why policies are the way they are (eg, attendance cause notes are not sufficient)\nBe flexible, and mention it in the intro/syllabus\nAvoid framing policies as a punishment"
+  },
+  {
+    "objectID": "index.html#syllabus",
+    "href": "index.html#syllabus",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Course number: CMPLXSYS 445\nCourse Title: Entropy and Information: Concepts and Applications\nClass Time & Location: Mondays & Wednesdays, 10:00-11:30AM; Weiser Hall, room 747\nInstructor: Bhaskar Kumawat (kumawatb@umich.edu)\nOffice hours location: 4052 Biological Sciences Building\nIn-person office hours: Tuesdays 10:00 AM - 11:00 AM\nZoom office hours: Thursdays 1:30 PM - 2:30 PM\n\n\nInformation theory was initially proposed by Claude Shannon as a tool to measure the theoretical limits of communication. Since then, the ideas from information theory have found applications beyond engineering, especially in the natural sciences where we wish to measure the performance limits of complex natural (or built) systems. This course introduces the fundamental ideas in Information Theory—Entropy, Relative Entropy, and Information—and is aimed towards students that wish to apply these principals to systems across the natural sciences. While the question of “What is Information?” is of fundamental importance, we will not be addressing it here. We will instead focus on the types of questions that information theory can (and cannot) answer and see how it can be applied to logical problem solving. We will discuss a few of these applications in detail—in evolution, physics, computation, and finance—and conclude with student led presentations on topics that can utilize information-theoretic reasoning. The course is primarily lecture and assignment based, but will have oppurtunities for active learning through interactive simulations and the final presentation.\n\n\n\nA first course in undergraduate probability theory is strongly recommended (eg. MATH 425). While we will go over the required probability concepts in the first few weeks, previous exposure to the concepts will be provide a smoother transition to the idea of information. Familiarity with any one scientific computing package is also recommended for the computational problems in the assignments (eg. python, julia, MATLAB, mathematica, R).\n\n\n\nAt the end of this course, students will be able to:\n\nCalculate the information content of various random variables and probability distributions.\nConstruct and analyze efficient codes for sending data reliably on noisy communication channels.\nUnderstand key theorems and inequalities that impose limitations on compression, communication, and inference.\nTransfer the concepts of entropy and information to solve problems in different fields of the natural sciences.\nIndependently read and critique an application of information theory and present it to their peers.\n\n\nDrop an assignment\nDesign policies with clear pathways is student needs to be absent, turn in work late, leave class early\nExplain why policies are the way they are (eg, attendance cause notes are not sufficient)\nBe flexible, and mention it in the intro/syllabus\nAvoid framing policies as a punishment"
+  },
+  {
+    "objectID": "assignments.html",
+    "href": "assignments.html",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Assignments"
+  },
+  {
+    "objectID": "using-gradescope.html",
+    "href": "using-gradescope.html",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Files app\nMicrosoft Lens\n\n\n\n\n\nMicrosoft Lens\n\n\n\n\n\nScanner locations"
+  },
+  {
+    "objectID": "using-gradescope.html#how-to-use-gradescope",
+    "href": "using-gradescope.html#how-to-use-gradescope",
+    "title": "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>",
+    "section": "",
+    "text": "Files app\nMicrosoft Lens\n\n\n\n\n\nMicrosoft Lens\n\n\n\n\n\nScanner locations"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#outline",
+    "href": "files/slides/intro_lec.html#outline",
+    "title": "Introduction & Motivation",
+    "section": "Outline",
+    "text": "Outline\n\nAbout me\nCourse logistics\nCourse overview\nMotivation"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#about-me",
+    "href": "files/slides/intro_lec.html#about-me",
+    "title": "Introduction & Motivation",
+    "section": "About me",
+    "text": "About me"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#about-me-1",
+    "href": "files/slides/intro_lec.html#about-me-1",
+    "title": "Introduction & Motivation",
+    "section": "About me",
+    "text": "About me\nResearch interests"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#course-logistics",
+    "href": "files/slides/intro_lec.html#course-logistics",
+    "title": "Introduction & Motivation",
+    "section": "Course logistics",
+    "text": "Course logistics\n\nCourse website: cmplxsys445.github.io (Also linked on Canvas homepage)"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#course-overview",
+    "href": "files/slides/intro_lec.html#course-overview",
+    "title": "Introduction & Motivation",
+    "section": "Course Overview",
+    "text": "Course Overview\nAssignments (50%)\nExams\n\nMidterm (20%)\n\nDate & Time:\nDetails:\n\nFinal (20%)\n\nDate & Time:\nDetails:\n\n\nFinal Presentation (10%)\n\nOral presentation (X mins)\nTopic:"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#course-overview-1",
+    "href": "files/slides/intro_lec.html#course-overview-1",
+    "title": "Introduction & Motivation",
+    "section": "Course Overview",
+    "text": "Course Overview\nQ & A"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation",
+    "href": "files/slides/intro_lec.html#motivation",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nWhy study entropy and information?\n\nProbability theory tells you the chances of an outcome\nInformation theory tells you about the uncertainty of an outcome\n[Weather example]\nInformation based measure provide good limits to the functioning of a system (rather than its average behavior)"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-1",
+    "href": "files/slides/intro_lec.html#motivation-1",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation as a “natural” measure"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-2",
+    "href": "files/slides/intro_lec.html#motivation-2",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation theory in: Physics\n\nThermodynamic costs of information\nQuantum information?"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-3",
+    "href": "files/slides/intro_lec.html#motivation-3",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation theory in: Computer Science\n\nHow much can you compress a file?\nHow much “learning” can a “machine” do?"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-4",
+    "href": "files/slides/intro_lec.html#motivation-4",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation theory in: Biology\n\nLimits to biological computation\nEvolutionary information (natural selection)"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-5",
+    "href": "files/slides/intro_lec.html#motivation-5",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation theory in: Statistics\n\nMaxEnt\nBest fit etc"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-6",
+    "href": "files/slides/intro_lec.html#motivation-6",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation theory in: Linguistics\n\nInformation rate of a language"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#motivation-7",
+    "href": "files/slides/intro_lec.html#motivation-7",
+    "title": "Introduction & Motivation",
+    "section": "Motivation",
+    "text": "Motivation\nInformation theory in: Economics\n\nEconomic value of information (gambling etc) and rate of growth"
+  },
+  {
+    "objectID": "files/slides/intro_lec.html#whats-next",
+    "href": "files/slides/intro_lec.html#whats-next",
+    "title": "Introduction & Motivation",
+    "section": "What’s next",
+    "text": "What’s next\nLecture\n\nIntroduction to probability theory (boring but useful)\n\nTo-dos\n\nCheck out the course website\nLogin to gradescope and Ed (Q&A site)\nDownload scanner app on your phone\nTry creating a PDF file"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "hash": "094388119a843c056cd36e7ef880b902",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "```{html}\n<iframe src=\"https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&title=CMPLXSYS%20445%20Fall%202025&src=Y181Yzg5ZDgxOTliYjFjZTljYjk2NWQ0M2UxYzU3NzE4NmJkNzNmYzY1ZmQzZmNhMDgxOGM5ODA2N2RiNjYzMzExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23F4511E\" style=\"border:solid 1px #777\" width=\"800\" height=\"600\" frameborder=\"0\" scrolling=\"no\"></iframe>\n```\n\n",
+    "supporting": [
+      "schedule_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

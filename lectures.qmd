@@ -1,0 +1,39 @@
+
+
+### Lectures
+
+::: {.callout-important collapse="true" appearance="minimal"}
+## 1. Introduction & Motivation
+- [Slides](./files/slides/intro_lec.html){target="_blank"}
+- Optional readings
+:::
+::: {.callout-important collapse="true" appearance="minimal"}
+## 2. Probability Theory I
+- Notes
+- Textbook chapters
+- Optional readings
+:::
+::: {.callout-important collapse="true" appearance="minimal"}
+## 2. Probability Theory II
+- Notes
+- Textbook chapters
+- Optional readings
+:::
+::: {.callout-important collapse="true" appearance="minimal"}
+## 3. Entropy
+- Notes
+- Textbook chapters
+- Optional readings
+:::
+::: {.callout-important collapse="true" appearance="minimal"}
+## 4. Relative Entropy
+- Notes
+- Textbook chapters
+- Optional readings
+:::
+::: {.callout-important collapse="true" appearance="minimal"}
+## 3. Mutual Information
+- Notes
+- Textbook chapters
+- Optional readings
+:::

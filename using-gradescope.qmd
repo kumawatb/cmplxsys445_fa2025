@@ -1,0 +1,25 @@
+
+
+## How to use gradescope
+
+### Scanning the document
+
+#### iOS
+
+- Files app
+- Microsoft Lens
+
+#### Android
+
+- Microsoft Lens
+
+#### Good ol' scanner
+- Scanner locations
+
+
+
+### Uploading and assigning pages
+
+#### Reduce filesize and upload
+
+#### Assign pages

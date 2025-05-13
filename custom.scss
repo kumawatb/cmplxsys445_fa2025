@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+
+// Define fonts
+@font-face{
+    font-family: 'AtkinsonHyperlegible';
+    src: url("./fonts/AtkinsonHyperlegibleNext-Regular.otf");
+}
+
+@font-face{
+    font-family: 'AtkinsonHyperlegible';
+    src: url("./fonts/AtkinsonHyperlegibleNext-SemiBold.otf");
+    font-weight: bold;
+}
+
+$font-family-sans-serif: AtkinsonHyperlegible;
+
+// Set body color to white
+$body-bg: #ffffff;
+
+/*-- scss:rules --*/
+
+// Set border for navbar
+.navbar{
+    border-width: 0px;
+}   
+
+h2, .h2{
+    border-bottom: 0px;
+}
+
+.callout.callout-style-simple {
+    padding: 0em 0em;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.callout.callout-style-simple>div.callout-header {
+    border-bottom: none;
+    font-weight: 500;
+    font-size: 14pt;
+    opacity: 100%;
+    padding-top: 0em;
+}
+
+.callout {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}

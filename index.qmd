@@ -1,0 +1,40 @@
+---
+format:
+    html: default
+    pdf: default
+---
+
+## Syllabus
+
+**Course number**: CMPLXSYS 445\
+**Course Title**: Entropy and Information: Concepts and Applications\
+**Class Time & Location**: Mondays & Wednesdays, 10:00-11:30AM; [Weiser Hall](https://maps.app.goo.gl/xHgVe3c8ZVPkUsTWA){target="_blank"}, room 747
+
+**Instructor**: [Bhaskar Kumawat](https://www.kumawatb.com/) (kumawatb@umich.edu)\
+**Office hours location**: 4052 Biological Sciences Building\
+**In-person office hours**: Tuesdays 10:00 AM - 11:00 AM\
+**Zoom office hours**: Thursdays 1:30 PM - 2:30 PM 
+
+### Course description
+
+Information theory was initially proposed by [Claude Shannon](https://ece.engin.umich.edu/stories/claude-shannon-father-of-the-information-age){target="_blank"} as a tool to measure the theoretical limits of communication. Since then, the ideas from information theory have found applications beyond engineering, especially in the natural sciences where we wish to measure the performance limits of complex natural (or built) systems. This course introduces the fundamental ideas in Information Theory---Entropy, Relative Entropy, and Information---and is aimed towards students that wish to apply these principals to systems across the natural sciences. While the question of “What is Information?” is of fundamental importance, we will not be addressing it here. We will instead focus on the types of questions that information theory can (and cannot) answer and see how it can be applied to logical problem solving. We will discuss a few of these applications in detail---in evolution, physics, computation, and finance---and conclude with student led presentations on topics that can utilize information-theoretic reasoning. The course is primarily lecture and assignment based, but will have oppurtunities for active learning through interactive simulations and the final presentation.
+
+### Prerequisites
+A first course in undergraduate probability theory is strongly recommended (eg. [MATH 425](https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/400-level-courses.html)). While we will go over the required probability concepts in the first few weeks, previous exposure to the concepts will be provide a smoother transition to the idea of information. Familiarity with any one scientific computing package is also recommended for the computational problems in the assignments (eg. python, julia, MATLAB, mathematica, R).
+
+
+### Learning objectives
+At the end of this course, students will be able to:
+
+1. Calculate the information content of various random variables and probability distributions.
+2. Construct and analyze efficient codes for sending data reliably on noisy communication channels.
+3. Understand key theorems and inequalities that impose limitations on compression, communication, and inference.
+4. Transfer the concepts of entropy and information to solve problems in different fields of the natural sciences.
+5. Independently read and critique an application of information theory and present it to their peers.
+
+
+- Drop an assignment
+- Design policies with clear pathways is student needs to be absent, turn in work late, leave class early
+- Explain why policies are the way they are (eg, attendance cause notes are not sufficient)
+- Be flexible, and mention it in the intro/syllabus
+- Avoid framing policies as a punishment

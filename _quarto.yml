@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  resources: ["files"]
+
+website:
+  title: "Entropy and Information: Concepts and Applications<br><span style=\"font-size:12pt;\"><b>CMPLXSYS 445</b>  &nbsp; Fall 2025, University of Michigan</span>"
+  navbar:
+    search: true
+    right:
+      - text: "Syllabus"
+        href: "index.qmd"
+      - text: "Schedule"
+        href: "schedule.qmd"
+      - text: "Lectures"
+        href: "lectures.qmd"
+      - text: "Assignments"
+        href: "assignments.qmd"
+      - text: "Gradescope ![](/files/icons/gradescope_logo.png){width=16px}"
+        menu:
+          - text: "Submit an assignment"
+            icon: "box-arrow-up-right"
+            href: "https://www.gradescope.com/courses/1033840"
+          - text: "Using gradescope"
+            href: "using-gradescope.qmd"
+      - text: "Q & A ![](/files/icons/edstem_logo.png){width=16px}"
+        icon: "box-arrow-up-right"
+        href: "https://edstem.org/us/courses/78534/discussion"
+  announcement: 
+    icon: exclamation-circle
+    dismissable: false
+    content: "**Note** - This course website is still under construction, check back in fall 2025 for a fully updated version!"
+    type: primary
+    position: above-navbar
+
+
+format:
+  html:
+    theme: 
+      - simplex
+      - custom.scss
+
+
+

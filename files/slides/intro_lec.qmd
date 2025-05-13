@@ -1,0 +1,114 @@
+---
+title: "Introduction & Motivation"
+subtitle: "Entropy and Information: Concepts and applications <br> <font style=\"font-size:16pt\">CMPLXSYS 445</font>"
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+date-format: full
+date: today
+format: 
+    revealjs: 
+        theme: [default, clean.scss]
+---
+
+## Outline
+
+- About me
+- Course logistics
+- Course overview
+- Motivation
+
+## About me
+
+
+## About me
+### Research interests
+
+## Course logistics
+
+- Course website: [**cmplxsys445.github.io**](cmplxsys445.github.io) (Also linked on Canvas homepage)
+
+## Course Overview
+
+### Assignments (50%)
+
+### Exams
+
+- Midterm (20%)
+  - Date & Time: 
+  - Details: 
+- Final (20%)
+  - Date & Time:
+  - Details:
+
+
+### Final Presentation (10%)
+- Oral presentation (X mins)
+- Topic: 
+
+## Course Overview
+
+### Q & A
+
+## Motivation
+### Why study entropy and information?
+
+- Probability theory tells you the chances of an outcome
+- Information theory tells you about the uncertainty of an outcome
+- [Weather example]
+
+- Information based measure provide good limits to the functioning of a system (rather than its average behavior)
+
+## Motivation
+### Information as a "natural" measure
+
+## Motivation
+### Information theory in: Physics
+
+- Thermodynamic costs of information
+- Quantum information?
+
+## Motivation
+### Information theory in: Computer Science
+
+- How much can you compress a file?
+- How much "learning" can a "machine" do?
+
+## Motivation
+### Information theory in: Biology
+
+- Limits to biological computation
+- Evolutionary information (natural selection)
+
+## Motivation
+### Information theory in: Statistics
+
+- MaxEnt
+- Best fit etc
+
+## Motivation
+### Information theory in: Linguistics
+
+- Information rate of a language
+
+## Motivation
+### Information theory in: Economics
+
+- Economic value of information (gambling etc) and rate of growth
+
+
+## What's next
+### Lecture
+- Introduction to probability theory (boring but useful)
+
+### To-dos
+- Check out the course website
+- Login to gradescope and Ed (Q&A site)
+- Download scanner app on your phone
+- Try creating a PDF file
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+<div style="display: flex; justify-content: center; align-items: center; height: 50px;">
+[Add to my calendar](https://calendar.google.com/calendar/u/1?cid=Y181Yzg5ZDgxOTliYjFjZTljYjk2NWQ0M2UxYzU3NzE4NmJkNzNmYzY1ZmQzZmNhMDgxOGM5ODA2N2RiNjYzMzExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Make sure you're logged into your umich.edu account on google"}
+</div>
+
+
+```{=html}
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&showCalendars=0&mode=WEEK&title=CMPLXSYS%20445%20Fall%202025&src=Y181Yzg5ZDgxOTliYjFjZTljYjk2NWQ0M2UxYzU3NzE4NmJkNzNmYzY1ZmQzZmNhMDgxOGM5ODA2N2RiNjYzMzExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23F4511E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+```
