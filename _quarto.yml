@@ -37,8 +37,8 @@ website:
 format:
   html:
     theme: 
-      - simplex
-      - custom.scss
+      light: [simplex, custom-light.scss]
+      dark: [simplex, custom-dark.scss]
 
 
 
