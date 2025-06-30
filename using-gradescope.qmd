@@ -2,24 +2,15 @@
 
 ## How to use gradescope
 
-### Scanning the document
+[Click here](https://guides.gradescope.com/hc/en-us/sections/21588899013133-Submitting-Assignments){target="_blank"} for a comprehensive guide to uploading assignments on Gradescope. Gradescope accepts PDF files or images. For handwritten sheets, the easiest method is to use a phone scanner app to scan your assignment to a PDF file and then uploading it to gradescope. Here are some utilities to help you in the process.
 
-#### iOS
+### Document scanners
 
-- Files app
-- Microsoft Lens
+- [Microsoft Lens for iOS](https://apps.apple.com/us/app/microsoft-lens-pdf-scanner/id975925059){target="_blank"}
+- [Microsoft Lens for Android](https://play.google.com/store/apps/details?id=com.microsoft.office.officelens&pcampaignid=web_share){target="_blank"}
+- [Campus computing locations](https://its.umich.edu/computing/computers-software/campus-computing-sites/computer-labs-map){target="_blank"} usually have scanners that allow you to e-mail a scanned PDF to yourself.
 
-#### Android
+### Other
 
-- Microsoft Lens
-
-#### Good ol' scanner
-- Scanner locations
-
-
-
-### Uploading and assigning pages
-
-#### Reduce filesize and upload
-
-#### Assign pages
+- [Reduce PDF File Size](https://www.i2pdf.com/compress-pdf){target="_blank"} (online tool)
+- [Gradescope tutorial](https://www.youtube.com/watch?v=nksyA0s-Geo){target="_blank"}  (3 min video)

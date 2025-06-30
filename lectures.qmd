@@ -10,14 +10,14 @@
 ::: {.callout-important collapse="true" appearance="minimal"}
 ## 2. Probability Theory I
 - Notes
-- Textbook chapters
-- Optional readings
+- References: Gardiner Chapter 2
 :::
 ::: {.callout-important collapse="true" appearance="minimal"}
 ## 2. Probability Theory II
 - Notes
 - Textbook chapters
-- Optional readings
+- [Random walk demonstration](https://prancer.physics.louisville.edu/modules/random_walks/index.html)
+
 :::
 ::: {.callout-important collapse="true" appearance="minimal"}
 ## 3. Entropy

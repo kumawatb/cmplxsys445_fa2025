@@ -1,8 +1,64 @@
+---
+format:
+    html:
+        page-layout: full
+---
+
+::: {.grid}
+
+::: {.g-col-6}
+
+### Schedule
+<div style="height:600px;overflow:auto;">
+| # | Day | Date | Topic | Reference |
+| :---- | :---- | :---- | :---- | :---- |
+| 1 | M | Aug 25 | Introduction & Motivation | \- |
+| 2 | W | Aug 27 | Probability Theory | Gardiner Ch. 2 |
+|  | M | Sep 1 | Labor Day \- **NO CLASS** |  |
+| 3 | W | Sep 3 | Entropy \- I  | Cover & Thomas Ch. 2 |
+| 4 | M | Sep 8 | Entropy \- II | Cover & Thomas Ch. 2 |
+| 5 | W | Sep 10 | Thermodynamics | Parrondo/Horowitz/Sagawa |
+| 6 | M | Sep 15 | Asymptotic Equipartition Theorem | Cover & Thomas Ch. 3 |
+| 7 | W | Sep 17 | Coding & Data Compression | Cover & Thomas Ch. 5 |
+| 8 | M | Sep 22 | Phase Transitions | Vogel/Saravia/Cortez |
+| 9 | W | Sep 24 | Relative Entropy | Cover & Thomas Ch. 2 |
+| 10 | M | Sep 29 | Suboptimal Codes | Cover & Thomas Ch. 5 |
+| 11 | W | Oct 1 | Mutual Information  | Cover & Thomas Ch. 2 |
+| 12 | M | Oct 6 | Sufficient Statistics | Cover & Thomas Ch. 2 |
+| 13 | W | Oct 8 | Channels & Channel Coding | Cover & Thomas Ch. 7 |
+|  | M | Oct 13 | Study Break \- **NO CLASS** |  |
+| 14 | W | Oct 15 | Midterm \- **NO CLASS** (Take-home, 10:00am Oct 15 to 10:00am Oct 16\) |  |
+| 15 | M | Oct 20 | Horse racing & Natural selection | Cover & Thomas Ch. 6 Rivoire/Leibler |
+| 16 | W | Oct 22 | Differential Entropy | Cover & Thomas Ch. 8, 9 |
+| 17 | M | Oct 27 | Biological Signal Transduction | Bialek |
+| 18 | W | Oct 29 | Rate-Distortion Theory | Cover & Thomas Ch. 10 |
+| 19 | M | Nov 3 | MaxEnt | Cover & Thomas Ch. 12 |
+| 20 | W | Nov 5 | Stochastic Processes | Cover & Thomas Ch. 4 |
+| 21 | M | Nov 10 | Random Graph Models | Fronczak |
+| 22 | W | Nov 12 | Advanced topics TBD |  |
+| 23 | M | Nov 17 | Advanced topics TBD |  |
+| 24 | W | Nov 19 | Advanced topics TBD |  |
+| 25 | M | Nov 24 | Advanced topics TBD |  |
+|  | W | Nov 26 | Thanksgiving Break \- **NO CLASS** |  |
+| 26 | M | Dec 1 | Final Presentations Pt 1 |  |
+| 27 | W | Dec 3 | Final Presentations Pt 2 |  |
+| 28 | M | Dec 8 | Presentations Overflow |  |
+| \- | M | Dec 15 | Final Exam (4-6pm) |  |
+</div>
+
+:::
+
+::: {.g-col-6}
 <div style="display: flex; justify-content: center; align-items: center; height: 50px;">
 [Add to my calendar](https://calendar.google.com/calendar/u/1?cid=Y181Yzg5ZDgxOTliYjFjZTljYjk2NWQ0M2UxYzU3NzE4NmJkNzNmYzY1ZmQzZmNhMDgxOGM5ODA2N2RiNjYzMzExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20){.btn .btn-outline-primary .btn role="button" data-toggle="tooltip" title="Make sure you're logged into your umich.edu account on google"}
 </div>
 
+<div style="display: flex; justify-content: center; align-items: center;">
+<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&showCalendars=0&mode=WEEK&title=CMPLXSYS%20445%20Fall%202025&src=Y181Yzg5ZDgxOTliYjFjZTljYjk2NWQ0M2UxYzU3NzE4NmJkNzNmYzY1ZmQzZmNhMDgxOGM5ODA2N2RiNjYzMzExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23F4511E" style="border:solid 2px #777;" width="500" height="600" frameborder="0" scrolling="no"></iframe>
+</div>
 
-```{=html}
-<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FDetroit&showCalendars=0&mode=WEEK&title=CMPLXSYS%20445%20Fall%202025&src=Y181Yzg5ZDgxOTliYjFjZTljYjk2NWQ0M2UxYzU3NzE4NmJkNzNmYzY1ZmQzZmNhMDgxOGM5ODA2N2RiNjYzMzExQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23F4511E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-```
+:::
+
+
+
+:::
