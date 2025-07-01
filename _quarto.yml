@@ -16,6 +16,9 @@ website:
         href: "lectures.qmd"
       - text: "Assignments"
         href: "assignments.qmd"
+      - text: "Announcements ![](/files/icons/canvas_logo.png){width=16px}"
+        icon: "box-arrow-up-right"
+        href: "https://umich.instructure.com/courses/770914/announcements"
       - text: "Gradescope ![](/files/icons/gradescope_logo.png){width=16px}"
         menu:
           - text: "Submit an assignment"
@@ -26,6 +29,7 @@ website:
       - text: "Q & A ![](/files/icons/edstem_logo.png){width=16px}"
         icon: "box-arrow-up-right"
         href: "https://edstem.org/us/courses/78534/discussion"
+
   announcement: 
     icon: exclamation-circle
     dismissable: false
