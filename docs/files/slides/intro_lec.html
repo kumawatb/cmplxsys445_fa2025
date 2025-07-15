@@ -6,8 +6,8 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.32">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.31">
 
   <title>Entropy and Information: Concepts and Applications&lt;br&gt;&lt;span style="font-size:12pt;"&gt;&lt;b&gt;CMPLXSYS 445&lt;/b&gt;  &nbsp; Fall 2025, University of Michigan&lt;/span&gt; – Introduction &amp; Motivation</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -132,132 +132,332 @@
 <div class="quarto-title-authors">
 </div>
 
-  <p class="date">Tuesday, July 1, 2025</p>
+  <p class="date">Tuesday, July 15, 2025</p>
 </section>
 <section id="outline" class="slide level2">
 <h2>Outline</h2>
 <ul>
-<li>About me</li>
-<li>Course logistics</li>
-<li>Course overview</li>
-<li>Motivation</li>
+<li class="fragment">About me</li>
+<li class="fragment">About you</li>
+<li class="fragment">Course overview</li>
+<li class="fragment">Motivation</li>
 </ul>
 </section>
 <section id="about-me" class="slide level2">
 <h2>About me</h2>
-</section>
-<section id="about-me-1" class="slide level2">
-<h2>About me</h2>
-<h3 id="research-interests">Research interests</h3>
-</section>
-<section id="course-logistics" class="slide level2">
-<h2>Course logistics</h2>
 <ul>
-<li>Course website: <a href="cmplxsys445.github.io"><strong>cmplxsys445.github.io</strong></a> (Also linked on Canvas homepage)</li>
+<li class="fragment">5th Year PhD Candidate in Ecology and Evolutionary Biology</li>
+<li class="fragment">BS/MS In Biology and Physics, Indian Institute of Science</li>
+<li class="fragment">Using information theory to understand how an organism can store information about its environment in the genetic code.</li>
+</ul>
+<div class="fragment">
+<h4 id="research-interests">Research interests</h4>
+<ul>
+<li class="fragment">How do living systems (real or artificial) adapt to their environment in creative ways?</li>
+<li class="fragment">Can we use theoretical tools to control evolution and engineer better biological systems?</li>
+</ul>
+</div>
+<div class="r-stack">
+<div class="fragment fade-in-then-out">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_paper.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+<div class="fragment fade-in-then-out">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_phdch2light.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+<div class="fragment fade-in-then-out">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_phdch3.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="about-you" class="slide level2">
+<h2>About you</h2>
+<ul>
+<li class="fragment">Your name, program, and year</li>
+<li class="fragment">Why learn information theory?</li>
 </ul>
 </section>
 <section id="course-overview" class="slide level2">
 <h2>Course Overview</h2>
-<h3 id="assignments-50">Assignments (50%)</h3>
-<h3 id="exams">Exams</h3>
+<h4 id="website">Website</h4>
 <ul>
-<li>Midterm (20%)
+<li class="fragment">Course website: <a href="https://kumawatb.github.io/cmplxsys445_fa2025"><strong>kumawatb.github.io/cmplxsys445_fa2025/</strong></a> (Bookmark it! Also linked on Canvas homepage)</li>
+<li class="fragment">Contains everything you would need:
 <ul>
-<li>Date &amp; Time:</li>
-<li>Details:</li>
+<li class="fragment">Syllabus</li>
+<li class="fragment">Assignments</li>
+<li class="fragment">Lecture notes/slides/readings</li>
+<li class="fragment">Links to external tools: Canvas (announcements), Gradescope (assignments), Ed (Q &amp; A)</li>
 </ul></li>
-<li>Final (20%)
-<ul>
-<li>Date &amp; Time:</li>
-<li>Details:</li>
-</ul></li>
-</ul>
-<h3 id="final-presentation-10">Final Presentation (10%)</h3>
-<ul>
-<li>Oral presentation (X mins)</li>
-<li>Topic:</li>
 </ul>
 </section>
 <section id="course-overview-1" class="slide level2">
 <h2>Course Overview</h2>
-<h3 id="q-a">Q &amp; A</h3>
+<h4 id="office-hours">Office Hours</h4>
+<ul>
+<li class="fragment">In-person: Monday 11:30AM-12:30PM (BSB 4052)</li>
+<li class="fragment">Online: Wednesday 11:30AM-12:30PM (Zoom, see website for link)</li>
+</ul>
+<div class="fragment">
+<ul>
+<li class="fragment">Email me to schedule another time for a meeting!</li>
+</ul>
+</div>
+</section>
+<section id="course-overview-2" class="slide level2">
+<h2>Course Overview</h2>
+<h4 id="assessment">Assessment</h4>
+<div class="smaller">
+<ul>
+<li class="fragment">Assignments (50%)</li>
+<li class="fragment">Midterm (20%)
+<ul>
+<li class="fragment">Date &amp; Time: October 15, 10:00am to October 16, 10:00am</li>
+<li class="fragment">Details: Take home, open book/notes/computational tool, no class on Wednesday Oct 15, upload on gradescope</li>
+</ul></li>
+<li class="fragment">Final (20%)
+<ul>
+<li class="fragment">Date &amp; Time: Dec 15, 4:00pm to 6:00pm</li>
+<li class="fragment">Details: In-person, open book/notes</li>
+</ul></li>
+<li class="fragment">Final Presentation (10%) ddddddw
+<ul>
+<li class="fragment">Oral presentation (5-6 mins)</li>
+<li class="fragment">Topic(s): You choose! (Some suggested topics on course website)</li>
+<li class="fragment">Topic decision due date: Oct 10</li>
+<li class="fragment">Recorded practice due date: Nov 11</li>
+</ul></li>
+</ul>
+</div>
 </section>
 <section id="motivation" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="why-study-entropy-and-information">Why study entropy and information?</h3>
+<h4 id="why-study-entropy-and-information">Why study entropy and information?</h4>
 <ul>
-<li><p>Probability theory tells you the chances of an outcome</p></li>
-<li><p>Information theory tells you about the uncertainty of an outcome</p></li>
-<li><p>[Weather example]</p></li>
-<li><p>Information based measure provide good limits to the functioning of a system (rather than its average behavior)</p></li>
+<li class="fragment">Probability theory tells you the chances of an outcome</li>
+<li class="fragment">Information theory tells you about the uncertainty of an outcome</li>
+<li class="fragment">Eg. Weather
+<ul>
+<li class="fragment">0% or 100% chance of rain (High certainty ~ Low entropy).</li>
+<li class="fragment">50% chance of rain (Low certainty ~ High entropy).</li>
+</ul></li>
+<li class="fragment">Information based measures can tell us
+<ul>
+<li class="fragment"><em>How much</em> we know about something (something = random variable(s))</li>
+<li class="fragment">What <em>can we</em> know for certain based on some partial information (Eg. MaxEnt)</li>
+<li class="fragment">About limitations of physically bottlenecked systems, because of its close relation to thermodynamics (Eg. Why we can’t build an infinitely efficient computer)</li>
+</ul></li>
 </ul>
 </section>
 <section id="motivation-1" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-as-a-natural-measure">Information as a “natural” measure</h3>
-</section>
+<h4 id="entropy-vs-information">Entropy vs information</h4>
+<ul>
+<li class="fragment">Entropy: Quantifies how much we don’t know.</li>
+<li class="fragment"><em>Information</em> (qualitative): That which allows us to make predictions with accuracy better than chance.</li>
+</ul>
+<p><br></p>
+<ul>
+<li class="fragment">Information (quantitative) = Reduction in entropy after we get some new <em>information</em>.<sup>1</sup></li>
+</ul>
+<aside><ol class="aside-footnotes"><li id="fn1"><p>For an interesting discussion of the connection between the two, see: Adami, C., 2016. What is information?. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2063), p.20150230.</p></li></ol></aside></section>
 <section id="motivation-2" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-theory-in-physics">Information theory in: Physics</h3>
+<h4 id="information-theory-in-statistics">Information theory in: Statistics</h4>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
-<li>Thermodynamic costs of information</li>
-<li>Quantum information?</li>
+<li class="fragment">Maximum Entropy: Maximize entropy given current constraints to best represent the state of knowledge about a system.
+<ul>
+<li class="fragment">Eg. If we know that an unknown probability distribution has a given mean and variance, the normal distribution with this mean and variance is the most entropic (and hence the most unbiased) distribution.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:40%;">
+<div class="fragment">
+<p><img data-src="./images/intro_maxent.png"></p>
+</div>
+</div></div>
+<ul>
+<li class="fragment">Sufficient Statistics: What property of some data is sufficient to say something about its underlying distribution?
+<ul>
+<li class="fragment">Eg. For data generated from a normal distribution with a known variance, the sample variance of the data is sufficient for the mean of the underlying distribution (i.e., you can get no extra information by looking at the data that you cannot get from the sample mean about the real mean)</li>
+</ul></li>
 </ul>
 </section>
 <section id="motivation-3" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-theory-in-computer-science">Information theory in: Computer Science</h3>
-<ul>
-<li>How much can you compress a file?</li>
-<li>How much “learning” can a “machine” do?</li>
-</ul>
+<h4 id="information-theory-in-computer-science">Information theory in: Computer Science</h4>
+<div class="fragment">
+<p>How much can you compress a file?</p>
+</div>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_compress.png" class="quarto-figure quarto-figure-center" style="width:30.0%"></p>
+</figure>
+</div>
+</div>
+<div class="fragment">
+<p>How much <em>learning</em> can a <em>machine</em> do?</p>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_nn.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_nnlarge.png" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div>
+</div></div>
 </section>
 <section id="motivation-4" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-theory-in-biology">Information theory in: Biology</h3>
+<h4 id="information-theory-in-finance">Information theory in: Finance</h4>
+<div class="columns">
+<div class="column" style="width:60%;">
 <ul>
-<li>Limits to biological computation</li>
-<li>Evolutionary information (natural selection)</li>
+<li class="fragment">Value of information: How should you distribute your money across investments to maximize long term gain? What’s the expected growth rate given a distribution? How does new information affect this?</li>
 </ul>
+</div><div class="column" style="width:30%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_stocks.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="motivation-5" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-theory-in-statistics">Information theory in: Statistics</h3>
+<h4 id="information-theory-in-linguistics">Information theory in: Linguistics</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>MaxEnt</li>
-<li>Best fit etc</li>
+<li class="fragment">Do faster spoken languages contain less information per syllable?<sup>1</sup></li>
 </ul>
-</section>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_lingrate.jpeg" class="quarto-figure quarto-figure-center" style="width:65.0%"></p>
+</figure>
+</div>
+</div>
+</div></div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">How to optimally name colors in a language to allow maximal accuracy with minimal complexity?<sup>2</sup></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_lingcolor.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn2"><p>https://www.science.org/doi/10.1126/sciadv.aaw2594</p></li><li id="fn3"><p>https://www.pnas.org/doi/10.1073/pnas.1800521115</p></li></ol></aside></section>
 <section id="motivation-6" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-theory-in-linguistics">Information theory in: Linguistics</h3>
+<h4 id="information-theory-in-physics">Information theory in: Physics</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Information rate of a language</li>
+<li class="fragment">Thermodynamics of computation: How much computation can we get out of a single unit of energy? <sup>1</sup></li>
 </ul>
-</section>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_bit.png" class="quarto-figure quarto-figure-center" style="width:65.0%"></p>
+</figure>
+</div>
+</div>
+</div></div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Why does Maxwell’s demon not violate the second law?</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_maxdemon.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn4"><p>https://www.nature.com/articles/nphys3230</p></li></ol></aside></section>
 <section id="motivation-7" class="slide level2">
 <h2>Motivation</h2>
-<h3 id="information-theory-in-economics">Information theory in: Economics</h3>
+<h4 id="information-theory-in-biology">Information theory in: Biology</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
 <ul>
-<li>Economic value of information (gambling etc) and rate of growth</li>
+<li class="fragment">What are the fundamental limits to the functioning of a biological system?</li>
 </ul>
-</section>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_enzyme.png" class="quarto-figure quarto-figure-center" style="width:65.0%"></p>
+</figure>
+</div>
+</div>
+</div></div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<ul>
+<li class="fragment">Can evolving organisms store information about past environments to evolve better in the future?<sup>1</sup></li>
+</ul>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="./images/intro_npmi.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</div>
+</div></div>
+<aside><ol class="aside-footnotes"><li id="fn5"><p>https://www.pnas.org/doi/10.1073/pnas.2413930121</p></li></ol></aside></section>
 <section id="whats-next" class="slide level2">
 <h2>What’s next</h2>
-<h3 id="lecture">Lecture</h3>
+<h4 id="lecture">Lecture</h4>
 <ul>
-<li>Introduction to probability theory (boring but useful)</li>
+<li class="fragment">Introduction to probability theory (boring but useful)</li>
 </ul>
-<h3 id="to-dos">To-dos</h3>
+<h4 id="to-dos">To-dos</h4>
 <ul>
-<li>Check out the course website</li>
-<li>Login to gradescope and Ed (Q&amp;A site)</li>
-<li>Download scanner app on your phone</li>
-<li>Try creating a PDF file</li>
+<li class="fragment">Check out the course website</li>
+<li class="fragment">Login to Gradescope and Ed (Q&amp;A site)</li>
+<li class="fragment">Download scanner app on your phone, and try using it</li>
 </ul>
 
 
 </section>
+
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <div class="footer footer-default">
@@ -294,7 +494,7 @@
 'autoAnimateUnmatched': true,
 'jumpToSlide': true,
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
+'smaller': true,
  
         // Display controls in the bottom right corner
         controls: false,

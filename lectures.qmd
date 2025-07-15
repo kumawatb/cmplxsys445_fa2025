@@ -4,10 +4,11 @@
 
 ::: {.callout-important collapse="true" appearance="minimal"}
 ## 1. Introduction & Motivation
+- **Date**: August 25, 2025 (Monday)
 - [Slides](./files/slides/intro_lec.html){target="_blank"}
-- Optional readings
+- Papers mentioned: 
 :::
-::: {.callout-important collapse="true" appearance="minimal"}
+<!-- ::: {.callout-important collapse="true" appearance="minimal"}
 ## 2. Probability Theory I
 - Notes
 - References: Gardiner Chapter 2
@@ -36,4 +37,4 @@
 - Notes
 - Textbook chapters
 - Optional readings
-:::
+::: -->

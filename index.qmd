@@ -12,19 +12,27 @@ format:
 **Class Time & Location**: Mondays & Wednesdays, 10:00-11:30AM; [East Hall](https://maps.app.goo.gl/RZrekMEPpMGuB4Gz6){target="_blank"}, Room B844 (Basement)
 
 **Instructor**: [Bhaskar Kumawat](https://www.kumawatb.com/){target="_blank"} (kumawatb@umich.edu)\
-**Office hours location**: 4052 Biological Sciences Building\
-**In-person office hours**: Tuesdays 10:00 AM - 11:00 AM\
-**Zoom office hours**: Thursdays 1:30 PM - 2:30 PM 
+**In-person office hours**: Mondays 11:30 AM - 12:30 PM (Location: 4052 [Biological Sciences Building](https://maps.app.goo.gl/wupyZ4UUtrNC15h1A))\
+**Zoom office hours**: Wednesdays 11:30 AM - 12:30 PM (Link:)
 
 ### Course description
 
 :::{.justify}
-Information theory was initially proposed by [Claude Shannon](https://ece.engin.umich.edu/stories/claude-shannon-father-of-the-information-age){target="_blank"} as a tool to measure the theoretical limits of communication. Since then, the ideas from information theory have found applications beyond engineering, especially in the natural sciences where we wish to measure the performance limits of complex natural (or built) systems. This course introduces the fundamental ideas in Information Theory---Entropy, Relative Entropy, and Information---and is aimed towards students that wish to apply these principals to systems across the natural sciences. While the question of “What is Information?” is of fundamental importance, we will not be addressing it here. We will instead focus on the types of questions that information theory can (and cannot) answer and see how it can be applied to logical problem solving. We will discuss a few of these applications in detail---in evolution, physics, computation, and finance---and conclude with student led presentations on topics that can utilize information-theoretic reasoning. The course is primarily lecture and assignment based, but will have oppurtunities for active learning through interactive simulations and the final presentation.
+Information theory was initially formalized by [Claude Shannon](https://ece.engin.umich.edu/stories/claude-shannon-father-of-the-information-age){target="_blank"} as a tool to measure the theoretical limits of communication. Since then, the ideas from information theory have found applications beyond engineering, especially in the natural sciences where we wish to measure the performance limits of complex natural (or built) systems. This course introduces the fundamental ideas in Information Theory---Entropy, Relative Entropy, and Information---and is aimed towards students that wish to apply these principals to systems across the natural sciences. While the question of “What is Information?” is of fundamental importance, we will not be addressing it here. We will instead focus on the types of questions that information theory can (and cannot) answer and see how it can be applied to logical problem solving. We will discuss a few of these applications in detail---in evolution, physics, computation, and finance---and conclude with student led presentations on topics that can utilize information-theoretic reasoning. The course is primarily lecture and assignment based, but will have opportunities for active learning through interactive simulations and the final presentation.
 :::
+
+### Textbooks
+
+**Main Text**: Elements of Information Theory by Cover & Thomas ([Available online from UM Library](https://search.lib.umich.edu/catalog/record/99187333982606381))
+
+**Other optional materials**
+
+1. Stochastic Methods Handbook by Gardiner (Ch 2, [UM Library Copy](https://search.lib.umich.edu/catalog/record/990002472320106381))
+2. Statistical Thinking from Scratch by Edge (Ch 4-5, [Available online from UM Library](https://search.lib.umich.edu/catalog/record/990002472320106381))
 
 ### Prerequisites
 :::{.justify}
-A first course in undergraduate probability theory is strongly recommended (eg. [MATH 425](https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/400-level-courses.html)). While we will go over the required probability concepts in the first few weeks, previous exposure to the concepts will be provide a smoother transition to the idea of information. Familiarity with any one scientific computing package is also recommended for the computational problems in the assignments (eg. python, julia, MATLAB, mathematica, R).
+A first course in undergraduate probability theory is strongly recommended (eg. [MATH 425](https://lsa.umich.edu/math/undergraduates/undergraduate-math-courses/400-level-courses.html)). While we will go over the required probability concepts in the first few weeks, previous exposure to the concepts will be provide a smoother transition to the idea of information. Chapters 4 and 5 from the "Statistical Thinking from Scratch" book provide a good overview of these probability concepts (linked above). Familiarity with any one scientific computing package is also recommended for the computational problems in the assignments (eg. python, julia, MATLAB, mathematica, R).
 :::
 
 <!-- 
@@ -90,7 +98,7 @@ Assignments will be due every Thursday at 11:59 PM (Midnight) via [Gradescope](h
 #### Midterm exam (20%)
 
 :::{.justify}
-A **take-home midterm** exam will be administered during the 24 hour period from Wednesday Oct. 16, 10:00 AM \- Thursday Oct. 17, 10:00 AM.  There will be no class on Wednesday, Oct. 16.  The exam will be open-book/notes, and you will be able to use a scientific computing package if you wish. 
+A **take-home midterm** exam will be administered during the 24 hour period from Wednesday Oct. 16, 10:00 AM \- Thursday Oct. 17, 10:00 AM.  There will be no class on Wednesday, Oct. 16. The exam will be open-book/notes, and you will be able to use a scientific computing package if you wish. 
 :::
 
 #### Presentation (10%)
@@ -105,13 +113,13 @@ Part of the aim of this course is to illustrate the tools of information theory 
 #### Final Exam (20%)
 
 :::{.justify}
-The final exam will be **in-person**, on Monday, Dec. 15 4:00 \- 6:00 pm. The exam will be open-notes, which in this case means that you can bring and use a) Class notes that you’ve taken yourself, and b) your own solutions to the homework problems. If your copy of the book or notes are on a device such as a tablet, phone, or laptop then you may bring and use that device solely for the purpose of viewing the notes or homework solutions. You should also bring some paper and a pen.
+The final exam will be **in-person**, on Monday, Dec. 15 4:00 \- 6:00 pm. The exam will be open-book/notes. If your copy of the book or notes are on a device such as a tablet, phone, or laptop then you may bring and use that device solely for the purpose of viewing the notes or homework solutions. You should also bring some paper and a pen.
 :::
 
 ### Course Policies
 #### Attendance
 
-The course is primarily in-person and attendance is expected (but not enforced) as you are responsible for all material presented in class. While an abridged, typed version of the lecture notes will be provided, you will be allowed to bring only hand-written notes for the final exam. As such, taking your own handwritten notes during the lectures is essential.
+The course is primarily in-person and attendance is expected (but not enforced) as you are responsible for all material presented in class. An abridged, typed version of the lecture notes will be provided but may not contain all details covered in class. As such, taking your own notes during the lectures is essential.
 
 #### Grading
 

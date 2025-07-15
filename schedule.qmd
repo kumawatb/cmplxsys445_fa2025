@@ -15,7 +15,7 @@ format:
 | 1 | M | Aug 25 | Introduction & Motivation | \- |
 | 2 | W | Aug 27 | Probability Theory | Gardiner Ch. 2 |
 |  | M | Sep 1 | Labor Day \- **NO CLASS** |  |
-| 3 | W | Sep 3 | Entropy \- I  | Cover & Thomas Ch. 2 |
+<!-- | 3 | W | Sep 3 | Entropy \- I  | Cover & Thomas Ch. 2 |
 | 4 | M | Sep 8 | Entropy \- II | Cover & Thomas Ch. 2 |
 | 5 | W | Sep 10 | Thermodynamics | Parrondo/Horowitz/Sagawa |
 | 6 | M | Sep 15 | Asymptotic Equipartition Theorem | Cover & Thomas Ch. 3 |
@@ -43,7 +43,7 @@ format:
 | 26 | M | Dec 1 | Final Presentations Pt 1 |  |
 | 27 | W | Dec 3 | Final Presentations Pt 2 |  |
 | 28 | M | Dec 8 | Presentations Overflow |  |
-| \- | M | Dec 15 | Final Exam (4-6pm) |  |
+| \- | M | Dec 15 | Final Exam (4-6pm) |  | -->
 </div>
 
 :::

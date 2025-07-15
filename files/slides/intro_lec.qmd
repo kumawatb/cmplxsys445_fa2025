@@ -9,103 +9,254 @@ date: today
 format: 
     revealjs: 
         theme: [default, clean.scss]
+        incremental: true
+        smaller: true
 ---
 
 ## Outline
 
 - About me
-- Course logistics
+- About you
 - Course overview
 - Motivation
 
-## About me
-
 
 ## About me
-### Research interests
+- 5th Year PhD Candidate in Ecology and Evolutionary Biology
+- BS/MS In Biology and Physics, Indian Institute of Science
+- Using information theory to understand how an organism can store information about its environment in the genetic code.
 
-## Course logistics
+:::{.fragment}
+#### Research interests
 
-- Course website: [**cmplxsys445.github.io**](cmplxsys445.github.io) (Also linked on Canvas homepage)
+- How do living systems (real or artificial) adapt to their environment in creative ways?
+- Can we use theoretical tools to control evolution and engineer better biological systems?
+:::
+
+::: {.r-stack}
+:::{.fragment .fade-in-then-out}
+![](./images/intro_paper.png){width=80% fig-align="center"}
+:::
+:::{.fragment .fade-in-then-out}
+![](./images/intro_phdch2light.png){width=60% fig-align="center"}
+:::
+:::{.fragment .fade-in-then-out}
+![](./images/intro_phdch3.png){width=60% fig-align="center"}
+:::
+:::
+
+## About you
+- Your name, program, and year
+- Why learn information theory?
 
 ## Course Overview
 
-### Assignments (50%)
+#### Website
 
-### Exams
+- Course website: [**kumawatb.github.io/cmplxsys445_fa2025/**](https://kumawatb.github.io/cmplxsys445_fa2025) (Bookmark it! Also linked on Canvas homepage)
+- Contains everything you would need:
+  - Syllabus
+  - Assignments
+  - Lecture notes/slides/readings
+  - Links to external tools: Canvas (announcements), Gradescope (assignments), Ed (Q & A)
 
+## Course Overview
+
+#### Office Hours
+
+- In-person: Monday 11:30AM-12:30PM (BSB 4052)
+- Online: Wednesday 11:30AM-12:30PM (Zoom, see website for link)
+
+:::{.fragment}
+- Email me to schedule another time for a meeting!
+:::
+
+## Course Overview
+
+#### Assessment
+
+:::{.smaller}
+- Assignments (50%)
 - Midterm (20%)
-  - Date & Time: 
-  - Details: 
+  - Date & Time: October 15, 10:00am to October 16, 10:00am
+  - Details: Take home, open book/notes/computational tool, no class on Wednesday Oct 15, upload on gradescope
+
 - Final (20%)
-  - Date & Time:
-  - Details:
+  - Date & Time: Dec 15, 4:00pm to 6:00pm
+  - Details: In-person, open book/notes
 
-
-### Final Presentation (10%)
-- Oral presentation (X mins)
-- Topic: 
-
-## Course Overview
-
-### Q & A
+- Final Presentation (10%) ddddddw
+  - Oral presentation (5-6 mins)
+  - Topic(s): You choose! (Some suggested topics on course website) 
+  - Topic decision due date: Oct 10
+  - Recorded practice due date: Nov 11
+:::
 
 ## Motivation
-### Why study entropy and information?
+#### Why study entropy and information?
 
 - Probability theory tells you the chances of an outcome
 - Information theory tells you about the uncertainty of an outcome
-- [Weather example]
+- Eg. Weather
+  - 0% or 100% chance of rain (High certainty ~ Low entropy).
+  - 50% chance of rain (Low certainty ~ High entropy).
 
-- Information based measure provide good limits to the functioning of a system (rather than its average behavior)
 
-## Motivation
-### Information as a "natural" measure
-
-## Motivation
-### Information theory in: Physics
-
-- Thermodynamic costs of information
-- Quantum information?
+- Information based measures can tell us
+  - *How much* we know about something (something = random variable(s))
+  - What *can we* know for certain based on some partial information (Eg. MaxEnt)
+  - About limitations of physically bottlenecked systems, because of its close relation to thermodynamics (Eg. Why we can't build an infinitely efficient computer)
 
 ## Motivation
-### Information theory in: Computer Science
+#### Entropy vs information
 
-- How much can you compress a file?
-- How much "learning" can a "machine" do?
+- Entropy: Quantifies how much we don't know.
+- *Information* (qualitative): That which allows us to make predictions with accuracy better than chance.
 
-## Motivation
-### Information theory in: Biology
+<br>
 
-- Limits to biological computation
-- Evolutionary information (natural selection)
+- Information (quantitative) = Reduction in entropy after we get some new *information*.^[For an interesting discussion of the connection between the two, see: Adami, C., 2016. What is information?. Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2063), p.20150230.]
 
 ## Motivation
-### Information theory in: Statistics
+#### Information theory in: Statistics
 
-- MaxEnt
-- Best fit etc
+:::: {.columns}
+
+::: {.column width="60%"}
+- Maximum Entropy: Maximize entropy given current constraints to best represent the state of knowledge about a system.
+    - Eg. If we know that an unknown probability distribution has a given mean and variance, the normal distribution with this mean and variance is the most entropic (and hence the most unbiased) distribution.
+:::
+
+::: {.column width="40%"}
+:::{.fragment}
+![](./images/intro_maxent.png)
+:::
+:::
+:::
+
+- Sufficient Statistics: What property of some data is sufficient to say something about its underlying distribution?
+    - Eg. For data generated from a normal distribution with a known variance, the sample variance of the data is sufficient for the mean of the underlying distribution (i.e., you can get no extra information by looking at the data that you cannot get from the sample mean about the real mean)
 
 ## Motivation
-### Information theory in: Linguistics
+#### Information theory in: Computer Science
 
-- Information rate of a language
+::: {.fragment}
+How much can you compress a file?
+:::
+
+:::{.fragment}
+![](./images/intro_compress.png){fig-align="center" width=30%}
+:::
+
+:::{.fragment}
+How much *learning* can a *machine* do?
+:::
+
+::: {.columns}
+::: {.column width=50%}
+:::{.fragment}
+![](./images/intro_nn.png){width=80% fig-align="center"}
+:::
+:::
+::: {.column width=50%}
+:::{.fragment}
+![](./images/intro_nnlarge.png){fig-align="center"}
+:::
+:::
+:::
 
 ## Motivation
-### Information theory in: Economics
+#### Information theory in: Finance
 
-- Economic value of information (gambling etc) and rate of growth
+:::{.columns}
+::: {.column width=60%}
+- Value of information: How should you distribute your money across investments to maximize long term gain? What's the expected growth rate given a distribution? How does new information affect this?
+:::
+::: {.column width=30%}
+![](./images/intro_stocks.jpg){width=80% fig-align="center"}
+:::
+:::
 
+## Motivation
+#### Information theory in: Linguistics
+:::{.columns}
+::: {.column width=50%}
+- Do faster spoken languages contain less information per syllable?^[https://www.science.org/doi/10.1126/sciadv.aaw2594]
+:::
+::: {.column width=50%}
+::: {.fragment}
+![](./images/intro_lingrate.jpeg){width=65% fig-align="center"}
+:::
+:::
+:::
+:::{.columns}
+::: {.column width=50%}
+- How to optimally name colors in a language to allow maximal accuracy with minimal complexity?^[https://www.pnas.org/doi/10.1073/pnas.1800521115]
+:::
+::: {.column width=50%}
+::: {.fragment}
+![](./images/intro_lingcolor.png){width=70% fig-align="center"}
+:::
+:::
+:::
+
+## Motivation
+#### Information theory in: Physics
+
+
+:::{.columns}
+::: {.column width=50%}
+- Thermodynamics of computation: How much computation can we get out of a single unit of energy? ^[https://www.nature.com/articles/nphys3230]
+:::
+::: {.column width=50%}
+::: {.fragment}
+![](./images/intro_bit.png){width=65% fig-align="center"}
+:::
+:::
+:::
+:::{.columns}
+::: {.column width=50%}
+- Why does Maxwell's demon not violate the second law?
+:::
+::: {.column width=50%}
+::: {.fragment}
+![](./images/intro_maxdemon.png){width=80% fig-align="center"}
+:::
+:::
+:::
+
+## Motivation
+#### Information theory in: Biology
+
+:::{.columns}
+::: {.column width=50%}
+- What are the fundamental limits to the functioning of a biological system?
+:::
+::: {.column width=50%}
+::: {.fragment}
+![](./images/intro_enzyme.png){width=65% fig-align="center"}
+:::
+:::
+:::
+:::{.columns}
+::: {.column width=50%}
+- Can evolving organisms store information about past environments to evolve better in the future?^[https://www.pnas.org/doi/10.1073/pnas.2413930121]
+:::
+::: {.column width=50%}
+::: {.fragment}
+![](./images/intro_npmi.png){width=80% fig-align="center"}
+:::
+:::
+:::
 
 ## What's next
-### Lecture
+#### Lecture
 - Introduction to probability theory (boring but useful)
 
-### To-dos
+#### To-dos
 - Check out the course website
-- Login to gradescope and Ed (Q&A site)
-- Download scanner app on your phone
-- Try creating a PDF file
+- Login to Gradescope and Ed (Q&A site)
+- Download scanner app on your phone, and try using it
 
 
 
