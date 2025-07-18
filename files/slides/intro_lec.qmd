@@ -85,7 +85,7 @@ format:
   - Date & Time: Dec 15, 4:00pm to 6:00pm
   - Details: In-person, open book/notes
 
-- Final Presentation (10%) ddddddw
+- Final Presentation (10%)
   - Oral presentation (5-6 mins)
   - Topic(s): You choose! (Some suggested topics on course website) 
   - Topic decision due date: Oct 10

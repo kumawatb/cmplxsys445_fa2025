@@ -7,6 +7,10 @@
 - **Date**: August 25, 2025 (Monday)
 - [Slides](./files/slides/intro_lec.html){target="_blank"}
 - Papers mentioned: 
+    - [What is information? by Christoph Adami, 2016](https://doi.org/10.1098/rsta.2015.0230)
+    - [Different languages, similar encoding efficiency... by Coupé et al., 2019](https://doi.org/10.1126/sciadv.aaw2594)
+    - [Efficient compression in color naming... by Zaslavsky et al., 2018](https://doi.org/10.1073/pnas.1800521115)
+    - [Thermodynamics of information by Parrondo et al., 2015](https://doi.org/10.1038/nphys3230)
 :::
 <!-- ::: {.callout-important collapse="true" appearance="minimal"}
 ## 2. Probability Theory I
